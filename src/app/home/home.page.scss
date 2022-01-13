@@ -1,27 +1,10 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-content{
+  --backbround: #303133;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
+p {
   font-size: 16px;
   line-height: 22px;
-
-  color: #8c8c8c;
-
+  color: #8C8C8C;
   margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  font-weight: 400;
 }
